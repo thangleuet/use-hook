@@ -1,0 +1,9 @@
+.mode-change {
+    color: black;
+    padding: 5px;
+    font-size: larger;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 340px;
+    text-align: center;
+}

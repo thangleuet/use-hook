@@ -6,8 +6,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 5px;
+  text-align: center;
+}
+.App {
+  background-color: rgb(219,219,219);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.todolist ul{
+  padding: 0px 10px 10px 10px;
+  list-style: none;
+}
+.todolist li {
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+}
+form {
+  padding: 10px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 0;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+  border: 0;
+  cursor: pointer;
+}
+.p-logout {
+  text-align: center;
+  margin: 50px;
+  color :red;
 }
